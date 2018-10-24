@@ -3,8 +3,8 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,iframe {PADDING: 0px; MARGIN: 0px;}
 DIV, P, I, UL, LI, OL, DL, DT, DD{list-style: none;}
 
-html{
-    overflow-x: hidden; overflow-y: auto;
+html::-webkit-scrollbar{
+    width: 0px;
 }
 .clear {
     clear: both;
